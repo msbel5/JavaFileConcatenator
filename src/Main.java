@@ -36,6 +36,7 @@ public class Main {
                                 file.getName().endsWith(".spec")||
                                 file.getName().endsWith(".json")||
                                 file.getName().endsWith(".csv") ||
+                                file.getName().endsWith(".xml") ||
                                 file.getName().endsWith(".cpt") )) {
                     appendJavaFileContents(file, outputFileWriter);
                 }
