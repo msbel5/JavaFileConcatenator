@@ -2,7 +2,7 @@ import java.io.*;
 
 public class Main {
     public static void main(String[] args) {
-        String projectDirectory = "/Users/testinium/IdeaProjects/a101ikwebautomation";  // Replace with your project directory path
+        String projectDirectory = "/Users/testinium/IdeaProjects/A101SOSQAMobileTestAutomaiton";  // Replace with your project directory path
         String outputFileName = "concatenatedJavaFiles.txt";
 
         try {
@@ -47,14 +47,14 @@ public class Main {
         BufferedReader reader = new BufferedReader(new FileReader(javaFile));
         String line;
 
-        outputFileWriter.write("===== " + javaFile.getName() + " =====\n");
+        outputFileWriter.write("\n===== " + javaFile.getName() + " =====\n\n");
 
         while ((line = reader.readLine()) != null) {
             outputFileWriter.write(line);
             outputFileWriter.write("\n");
         }
 
-        outputFileWriter.write("\n");
+        outputFileWriter.write("\n===== End Of File =====\n\n");
         reader.close();
     }
 }
