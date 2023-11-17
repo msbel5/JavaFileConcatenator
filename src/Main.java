@@ -32,13 +32,13 @@ public class Main {
                 if (file.isDirectory()) {
                     processDirectory(file, outputFileWriter);
                 } else if (file.isFile() &&
-                        (file.getName().endsWith(".java")       ||
-                                file.getName().endsWith(".spec")||
-                                file.getName().endsWith(".json")||
-                                file.getName().endsWith(".csv") ||
-                                file.getName().endsWith(".xml") ||
-                                file.getName().endsWith(".cpt") )) {
-                    appendJavaFileContents(file, outputFileWriter);
+                        (file.getName().endsWith(".java")
+                /*        || file.getName().endsWith(".spec")
+                        || file.getName().endsWith(".json")
+                        || file.getName().endsWith(".csv")
+                        || file.getName().endsWith(".xml")
+                        || file.getName().endsWith(".cpt")*/
+                        )) {appendJavaFileContents(file, outputFileWriter);
                 }
             }
         }
