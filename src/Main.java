@@ -2,7 +2,7 @@ import java.io.*;
 
 public class Main {
     public static void main(String[] args) {
-        String projectDirectory = "/Users/testinium/IdeaProjects/A101SOSQAMobileTestAutomaiton";  // Replace with your project directory path
+        String projectDirectory = "/Users/macgyver/IdeaProjects/A101SOSQAMobileTestAutomaiton";  // Replace with your project directory path
         String outputFileName = "concatenatedJavaFiles.txt";
 
         try {
@@ -33,9 +33,9 @@ public class Main {
                     processDirectory(file, outputFileWriter);
                 } else if (file.isFile() &&
                         (file.getName().endsWith(".java")
-                /*        || file.getName().endsWith(".spec")
-                        || file.getName().endsWith(".json")
+                        || file.getName().endsWith(".spec")
                         || file.getName().endsWith(".csv")
+                /*        || file.getName().endsWith(".json")
                         || file.getName().endsWith(".xml")
                         || file.getName().endsWith(".cpt")*/
                         )) {appendJavaFileContents(file, outputFileWriter);
