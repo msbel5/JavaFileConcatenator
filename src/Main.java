@@ -2,20 +2,16 @@ import java.io.*;
 
 public class Main {
     public static void main(String[] args) {
-        String projectDirectory = "/Users/macgyver/IdeaProjects/A101SOSQAMobileTestAutomaiton";  // Replace with your project directory path
+        String projectDirectory = "/Users/macgyver/RiderProjects/healthmonitorapp/";  // Replace with your project directory path
         String outputFileName = "concatenatedJavaFiles.txt";
-
         try {
             FileWriter outputFileWriter = new FileWriter(outputFileName);
-
             File projectDir = new File(projectDirectory);
-
             if (projectDir.exists() && projectDir.isDirectory()) {
                 processDirectory(projectDir, outputFileWriter);
             } else {
                 System.err.println("Project directory not found.");
             }
-
             outputFileWriter.close();
 
             System.out.println("Java files concatenated successfully into " + outputFileName);
@@ -32,9 +28,8 @@ public class Main {
                 if (file.isDirectory()) {
                     processDirectory(file, outputFileWriter);
                 } else if (file.isFile() &&
-                        (file.getName().endsWith(".java")
-                        || file.getName().endsWith(".spec")
-                        || file.getName().endsWith(".csv")
+                        (file.getName().endsWith(".cs")
+                        || file.getName().endsWith(".chtml")
                 /*        || file.getName().endsWith(".json")
                         || file.getName().endsWith(".xml")
                         || file.getName().endsWith(".cpt")*/

@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f2c246b-f723-4aee-9bca-fb0fc537a8d3" name="Changes" comment="minor changes">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -44,9 +43,24 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="JavaFileConcatenator" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
+        <option value="jdk-17.0.10-corretto-17.0.10-3183f394aec4-96c0d24d" />
         <option value="jdk-17.0.9-corretto-17.0.9-f644763e9732-203781b8" />
       </set>
     </attachedChunks>
@@ -76,6 +90,12 @@
       <workItem from="1704794103568" duration="86000" />
       <workItem from="1704794490068" duration="436000" />
       <workItem from="1704956603651" duration="6000" />
+      <workItem from="1704972065781" duration="534000" />
+      <workItem from="1705045345603" duration="1000" />
+      <workItem from="1705925104873" duration="1147000" />
+      <workItem from="1707833713139" duration="427000" />
+      <workItem from="1709019419561" duration="2290000" />
+      <workItem from="1710505757075" duration="2050000" />
     </task>
     <task id="LOCAL-00001" summary="minor changes">
       <option name="closed" value="true" />
@@ -93,7 +113,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698389444753</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="minor changes">
+      <option name="closed" value="true" />
+      <created>1704972071990</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1704972071990</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
